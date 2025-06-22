@@ -5,7 +5,6 @@
 
 int main()
 {
-
     int Num=0,Sum=0;
 
     printf("\n Enter a Number : ");
