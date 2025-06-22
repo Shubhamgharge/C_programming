@@ -9,13 +9,10 @@ int main()
 {
 
     int Num=0,Count=0;
-
-
+    
     printf("Enter a number to count digits in number.");
     scanf("%d",&Num);
     Count=Digit_Count(Num);
-
-
 
     printf("\n Total digits in < %d >  = %d",Num,Count);
 
@@ -32,10 +29,7 @@ int Digit_Count(int No)
     {
         No=No/10;
         dCount++;
-
     }
-
-
     return dCount;
 }
 
